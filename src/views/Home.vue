@@ -1,20 +1,17 @@
 <template>
   <div class="home">
-    <LineChart/>
+    <LineChartContainer/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import LineChart from "@/components/LineChart.vue";
+import LineChartContainer from "@/components/LineChartContainer.vue";
 
 export default {
   name: 'Home',
   components: {
-    LineChart
+    LineChartContainer
   },
-  mounted() {
-    console.log('mounted')
-  }
 }
 </script>

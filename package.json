@@ -4,19 +4,22 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "start": "json-server api/data.json --delay 2000"
   },
   "dependencies": {
     "chart.js": "^2.9.3",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-chartjs": "^3.5.0",
+    "vue-loading-template": "^1.3.2",
     "vue-router": "^3.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-plugin-router": "^4.4.0",
     "@vue/cli-service": "^4.4.0",
+    "json-server": "^0.16.1",
     "vue-template-compiler": "^2.6.11"
   }
 }
